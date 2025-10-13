@@ -95,6 +95,27 @@ body {
 }
 
 
+.digital {
+  width: 260px;
+  height: 80px;
+  margin-left: 40px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.6); /* semi-transparent glass look */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2), inset 0 0 10px rgba(255,255,255,0.1);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #00eaff; /* glowing cyan text */
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 8px #00eaff, 0 0 15px #00eaff;
+  
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(6px);
+}
 
 
 
